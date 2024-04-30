@@ -10,7 +10,7 @@ sudo apt install wkhtmltoimage
 ### Get the task repo.
 ```
 cd /any place you prefer
-git clone 
+git clone https://github.com/Ruihan11/MDtask.git
 ``` 
   
 ### Install Rainmeter in your windows https://www.rainmeter.net/.
