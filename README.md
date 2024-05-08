@@ -6,6 +6,7 @@
 ```
 sudo apt install pandoc
 sudo apt install wkhtmltoimage
+sudo apt-get install fonts-wqy-zenhei
 ``` 
 ### Get the task repo.
 ```

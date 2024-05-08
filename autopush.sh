@@ -5,7 +5,7 @@ git push origin main
 
 #generate png and display on windows desktop
 pandoc task.md -o task.html
-wkhtmltoimage task.html task.png
+wkhtmltoimage --encoding "UTF-8" task.html task.png
 /mnt/d/your_dir_to_rainmeter/Rainmeter.exe \!Refresh "Calendar"
 
 rm task.html
