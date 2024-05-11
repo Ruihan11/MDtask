@@ -2,11 +2,9 @@
 *Markdown task board in WSL2 with windows display*
 
 ## Installation
-### Make sure you have **pandoc** and  **wkhtmltoimage** in your wsl2.
+### Make sure you have **pandoc** in your wsl2.
 ```
 sudo apt install pandoc
-sudo apt install wkhtmltoimage
-sudo apt-get install fonts-wqy-zenhei
 ``` 
 ### Get the task repo.
 ```
@@ -36,14 +34,9 @@ ImageCrop=0,0,400,500
 ```
 ### All good.
 
-## In a beautiful morning  
-*I made myself a fine cup of coffee and clicked on my WSL2 MDtask directory.*
+## Demo
 ```
 cd /your MDtask
-```  
-*I sorted out what I was gonna do in **task.md** based on DDL or other plans*
-```
 bash autopush.sh
 ```  
-*What a beautiful and productive day.*
 ![alt text](doc/demo.png)
