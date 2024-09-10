@@ -10,10 +10,6 @@ nvm install node
 nvm install 18
 nvm use 18
 npm install puppeteer-core
-
-
-sudo apt install pandoc
-npm install puppeteer-core
 ``` 
 ### Get the task repo.
 ```
