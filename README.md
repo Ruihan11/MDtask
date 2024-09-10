@@ -5,6 +5,15 @@
 ### Make sure you have **pandoc** in your wsl2.
 ```
 sudo apt install pandoc
+source ~/.bashrc  # or ~/.zshrc depending on your shell
+nvm install node
+nvm install 18
+nvm use 18
+npm install puppeteer-core
+
+
+sudo apt install pandoc
+npm install puppeteer-core
 ``` 
 ### Get the task repo.
 ```
